@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png">
+    <title>Biblioteca</title>
+</head>
+<body>
+    <header>
+        <a href="#">
+            <div class="logo">
+                <img src="logo.png" alt="logo libro">
+                <h2>Biblioteca</h2>
+            </div>
+        </a>
+        <nav>
+            <a href="cargos.html" class="nav-link">Cargos</a>
+            <a href="empleados.html" class="nav-link">Empleados</a>
+            <a href="libros.html" class="nav-link">Libros</a>
+            <a href="#" class="nav-link">Presupuesto</a>
+        </nav>
+    </header>
+    
+    <h2>Libros</h2>
+    <form autocomplete="off">
+        <label for="titulo">Titulo del libro:</label><br>
+        <input type="text" name="titulo" id="titulo"><br><br>
+        <label for="autor">Autor del libro:</label><br>
+        <input type="text" name="autor" id="autor"><br><br>
+        <label for="genero">Genero del libro:</label><br>
+        <select>
+            <option>Drama</option>
+            <option>Poesía</option>
+            <option selected>Novela</option>
+            <option>Romance</option>
+            <option>Fantasía</option>
+            <option>Ciencia ficción</option>
+        </select><br><br>
+        <label for="precio">Precio del libro:</label><br>
+        <input type="number" id="precio" name="precio"><br><br>
+        <label for="fecha">Fecha de pedido:</label><br>
+        <input type="date" id="fecha" name="fecha"><br><br>
+    </form>
+</body>
+</html>

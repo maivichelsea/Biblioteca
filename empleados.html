@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png">
+    <title>Biblioteca</title>
+</head>
+<body>
+    <header>
+        <a href="#">
+            <div class="logo">
+                <img src="logo.png" alt="logo libro">
+                <h2>Biblioteca</h2>
+            </div>
+        </a>
+        <nav>
+            <a href="cargos.html" class="nav-link">Cargos</a>
+            <a href="empleados.html" class="nav-link">Empleados</a>
+            <a href="libros.html" class="nav-link">Libros</a>
+            <a href="#" class="nav-link" disabled>Presupuesto</a>
+        </nav>
+    </header>
+    <h2>Empleados Formulario</h2>
+    <form autocomplete="off">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre"><br><br>
+        <label for="apellido">Apellido</label><br>
+        <input type="text" id="apellido"><br><br>
+        <label for="ciudad">Ciudad</label><br>
+        <input type="text" id="ciudad"><br><br>
+        <label for="direccion">Dirección</label><br>
+        <input type="text" id="direccion"><br><br>
+        <label for="tipodoc">Tipo de documento</label><br>
+        <select>
+            <option>Cedula de ciudadania</option>
+            <option selected>Tarjeta de identidad</option>
+            <option>Numero de Identificación Unico</option>
+            <option>Registro Civil</option>
+            <option>Pasaporte</option> 
+        </select><br><br>
+        <label for="numdoc">Numero de documento</label><br>
+        <input type="number" id="numdoc"><br><br>
+    </form>
+</body>
+</html>
